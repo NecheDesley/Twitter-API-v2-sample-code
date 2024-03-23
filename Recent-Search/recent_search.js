@@ -43,8 +43,8 @@ async function getRequest() {
             depth: null
         });
 
-    } catch (e) {
-        console.log(e);
+    } catch (error) {
+        console.log(error);
         process.exit(-1);
     }
     process.exit();
